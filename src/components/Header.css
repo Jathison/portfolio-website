@@ -6,7 +6,13 @@
     padding-left: 20vh;
     padding-right: 20vh;
     padding-top: 2vh;
-    background-color: aqua;
+    background-color: whitesmoke;
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 .wrapper {
@@ -14,4 +20,12 @@
     flex-direction: row;
     justify-content: space-between;
     column-gap: 10vh;
+}
+
+.nav {
+    cursor: pointer;
+}
+
+.nav:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,11 @@
+.info-card-container {
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    word-break: break-word;
+    width: 25vh;
+}

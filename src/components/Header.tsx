@@ -6,9 +6,9 @@ export default function Header({visible} : {visible: boolean}) {
         <div className="header-container">
             <span className="name">Jathison Vasudevan</span>
             <div className="wrapper">
-                <span className="about-nav">About</span>
-                <span className="projects-nav">Projects</span>
-                <span className="contact-nav">Contact</span>
+                <span className="nav about-nav">About</span>
+                <span className="nav projects-nav">Projects</span>
+                <span className="nav contact-nav">Contact</span>
             </div>
         </div>
     );
