@@ -1,7 +1,8 @@
 import './Header.css'
 
-export default function Header() {
-    return (
+// test
+export default function Header({visible} : {visible: boolean}) {
+    return visible && (
         <div className="header-container">
             <span className="name">Jathison Vasudevan</span>
             <div className="wrapper">
