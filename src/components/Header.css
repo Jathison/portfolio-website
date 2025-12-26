@@ -3,11 +3,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-top: 2vh;
+    background-color: aqua;
 }
 
 .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex: 1;
+    column-gap: 10vh;
 }
